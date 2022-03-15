@@ -1,0 +1,71 @@
+@font-face{
+    font-family:"thewitcher-medium";
+    src:url("font/thewitcher-4.ttf") format("opentype");
+}
+.header {
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: black;
+    height: 160px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: thewitcher-medium, serif;
+    font-size: 2em;
+}
+.header .btn{
+    color: white;
+}
+.header .btn:hover{
+    color: red;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+}
+img{
+    width: 450px;
+    height: 400px;
+    border-radius: 10%;
+}
+#info{
+    flex-wrap: wrap;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+}
+#separate{
+    margin-right: 5%;
+    margin-left: 7.5%;
+}
+#info p{
+    height: 100px;
+    padding-top: 15%;
+    padding-bottom: 0;
+    font-family: thewitcher-medium, serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    background: url("/img/parchemin.jpg") no-repeat;
+    background-size: 100%;
+}
+body{
+    background: url(https://www.10wallpaper.com/wallpaper/1366x768/1503/THE_WITCHER_3_WILD_HUNT_Game_HD_Wallpaper_17_1366x768.jpg) no-repeat 50%;
+    background-size: cover;
+}
+.footer {
+    margin-top: 165px;
+    padding-top: 25px;
+    height: 100px;
+    background-color: rgba(0, 18, 19);}
+
+.footer p {
+    font-family: thewitcher-medium, serif;
+    color: gray;
+    font-size: 1.5em;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+@font-face{
+    font-family:"thewitcher-medium";
+    src:url("font/thewitcher-4.ttf") format("opentype");
+}
+*{
+
+}
+body {
+    background: url(https://wallpaperaccess.com/full/384294.jpg) no-repeat;
+    background-size: cover;
+}
+.header {
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: black;
+    height: 140px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: thewitcher-medium, serif;
+    font-size: 2em;
+}
+.header .btn{
+    color: white;
+}
+.header .btn:hover{
+    color: red;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+}
+img{
+    width: 450px;
+    height: 475px;
+    border-radius: 10%;
+}
+
+#info{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#info p{
+    max-width: 275px;
+    height: 200px;
+    padding-top: 3%;
+    padding-bottom: 0;
+    font-family: thewitcher-medium, serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    background: url("/img/parchemin.jpg") no-repeat;
+    background-size: 100%;
+}
+.footer {
+    margin-top: 165px;
+    padding-top: 25px;
+    height: 100px;
+    background-color: rgba(0, 18, 19);
+ }
+.footer p {
+    font-family: thewitcher-medium, serif;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,71 @@
+@font-face{
+    font-family:"thewitcher-medium";
+    src:url("font/thewitcher-4.ttf") format("opentype");
+}
+.header {
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: black;
+    height: 160px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: thewitcher-medium, serif;
+    font-size: 2em;
+}
+img{
+    width: 550px;
+    height: 500px;
+    border-radius: 10%;
+}
+body{
+    background: url(https://assets.fontsinuse.com/static/use-media-items/31/30070/full-1200x619/562154b5/The_Witcher_3_Wild_Hunt_World_Map.jpeg) no-repeat;
+    background-size: cover;
+}
+.header .btn{
+     color: white;
+ }
+.header .btn:hover{
+    color: red;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+}
+#info{
+    flex-wrap: wrap;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: row;
+}
+#separate{
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+}
+#info p{
+    height: 100px;
+    padding-top: 15%;
+    padding-bottom: 0;
+    font-family: thewitcher-medium, serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    background: url("/img/parchemin.jpg") no-repeat;
+    background-size: 100%;
+}
+.footer {
+    margin-top: 165px;
+    padding-top: 25px;
+    height: 100px;
+    background-color: rgba(0, 18, 19);}
+
+.footer p {
+    font-family: thewitcher-medium, serif;
+    color: gray;
+    font-size: 1.5em;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

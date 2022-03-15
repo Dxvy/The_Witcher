@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/races.css" type="text/css">
+    <title>Races</title>
+</head>
+<body>
+<audio autoplay src="song/Lazare.mp3"></audio>
+<div class="header">
+    <a href="/">
+        <img alt="Logo the Witcher" class="logo" src="img/gwynbleidd.png">
+    </a>
+    <a class="btn" href="/perso" >Personnages</a>
+    <a class="btn" href="/creatures" >Créatures</a>
+    <a class="btn" href="/races" >Races</a>
+    <a class="btn" href="/species" >Espèces</a>
+</div>
+<div id="info">
+    {{range .}}
+    <div id="separate">
+        <img src="img/{{.Name}}.jpg" alt="">
+        <p>
+            {{.Name}}
+        </p>
+    </div>
+    {{end}}
+</div>
+<div class="footer">
+    <p>MARTHELY Davy & CONRAUX Sam | 2021/2022 | Ynov Aix-en-Provence</p>
+</div>
+</body>
+</html>
